@@ -1,0 +1,183 @@
+.user-profile-container {
+    border-radius:8px;
+    background-color:white;
+}
+
+.user-profile-header-container {
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    padding:10px;
+}
+
+.user-profile-avatar-container {
+    margin-top:20px;
+}
+
+.user-profile-email-container {
+    font-size:10px;
+    padding:5px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:10px
+}
+
+.user-profile-toolbar-container {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.user-document-container {
+    
+    margin-left:20px;
+    min-height:90vh;
+    border-radius:8px;
+    background-color:white;
+}
+
+.user-document-file-table-header {
+    padding-left:10px;
+    padding-right:10px;
+    color:#aaaaaa;
+    padding-top:20px;
+}
+
+.user-document-file-table-row {
+    margin-top:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:gray;
+    border-radius:10px; 
+    color:black;
+}
+
+.user-document-file-table-row {
+    cursor:pointer;
+}
+
+.user-phase-container {
+    background-color: transparent;
+    border-radius: 10px;
+    border-width:2px;
+    border-style:solid;
+    margin-bottom:10px;
+    height:40px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex;
+}
+
+.user-phase-container-background {
+    background-color: transparent;
+    border-radius: 10px;
+    border-width:2px;
+    border-style:solid;
+    margin-bottom:10px;
+    height:40px;
+}
+
+.user-phase-number-container {
+    float:left;
+    padding-left:10px;
+    margin-top:10px;
+    position:absolute;
+    top:0%;
+}
+
+.user-phase-number{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    background-color:white;
+    border-radius:9999px;
+}
+
+.user-phase-text-container {
+    padding-left:35px;
+    white-space: nowrap;
+    float:left;
+    margin-top:10px;
+}
+
+.user-document-header-container {
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    padding:10px 0px;
+}
+
+.ant-input {
+    background-color:#e5f9ff!important;
+}
+
+.user-document-toolbar-add {
+    font-size:18px;
+    border-radius:5px;
+    border:1px solid #3e6ffb;
+    background-color:#3e6ffb;
+    color:white;
+    height:30px
+}
+
+.user-document-toolbar-add:hover {
+    transition:all .2s ease-in-out;
+    cursor:pointer;
+    background-color:white;
+    color:#3e6ffb;
+}
+.user-document-toolbar-add+ .active {
+    background-color:white;
+    color:#ff0659;
+}
+
+.user-document-grid-list-btn {
+    width:25px;
+    height:25px;
+    border-width: 2px;
+    border-style:solid;
+    border-radius:3px;
+}
+
+.ant-input-affix-wrapper {
+    border-radius:7px!important;
+}
+
+.user-upload-modal .ant-modal-content .ant-modal-header {
+    background-color:#3f8dfd;
+}
+
+.user-upload-modal .ant-modal-content .ant-modal-close {
+    color:white;
+}
+
+.user-upload-modal input {
+    background: white !important;
+}
+
+.user-upload-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+    color:white;
+}
+.light-btn {
+    width: 100%;
+    color: white !important;
+    border-radius: 5px !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.light-btn:focus, .light-btn:hover {
+    outline: none;
+}
+.customer-header-search {
+    border-radius: 9999px !important;
+    background: white;
+    width: 200px;
+    padding: 4px;
+}
+
+.customer-header-search:hover {
+    border: 1px solid #498be8;
+    outline: none;
+}
+
+.customer-header-search::before {
+    content: "search | ";
+}

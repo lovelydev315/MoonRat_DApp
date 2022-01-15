@@ -1,0 +1,292 @@
+.admin-container {
+    /* height: 100vh; */
+    padding-top: 10vh;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius:40px;
+}
+
+.admin-title {
+    color: #1c1c1c;
+    text-align: left;
+    margin: 0;
+}
+
+.admin-header-search {
+    border-radius: 9999px !important;
+    background: white;
+    width: 200px;
+    margin-top: 7px;
+    padding: 4px;
+}
+
+.admin-header-search:hover {
+    border: 1px solid #498be8;
+    outline: none;
+}
+
+.admin-header-search::before {
+    content: "search | ";
+}
+
+.admin-header-search-input {
+    background-color: inherit;
+    border: none;
+    width: calc(100% - 60px);
+}
+
+.admin-header-search-input:focus {
+    outline: none;
+}
+
+.admin-header-button {
+    border: none;
+    border-radius: 8px !important;
+    float: right;
+    width:100px;
+    margin-top: 4px;
+}
+
+.admin-header-button:hover {
+    border: none;
+    outline: none;
+}
+
+.admin-header-button span {
+    color: white;
+}
+
+.admin-header-button span:hover {
+    color: white;
+}
+
+.admin-header-button.disabled span, .admin-header-button.disabled span:hover {
+    color: #c1c1c1;
+    cursor: not-allowed;
+}
+
+.admin-subheader {
+    text-align: left;
+    padding: 12px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.admin-subheader h3 {
+    color: white;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: default;
+}
+
+.admin-subheader .circle-white {
+    line-height: 20px;
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 9999px;
+    display: inline-block;
+    margin: 0px;
+    cursor: default;
+}
+
+.admin-progress-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.admin-progress-card-container {
+    min-width:120px;
+    box-shadow: 4px 4px 4px 1px #eee;
+    border-radius:15px;
+    background-color:#d2d2ff;
+}
+.admin-progress-card-container:hover {
+    cursor:pointer;
+}
+
+.progress-card-container {
+    border-radius:10px;
+    padding:10px;
+    position: relative;
+}
+
+.progress-card-toolbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.progress-card-cross {
+    padding:3px;
+    font-size:13px;
+}
+
+.progress-card-more {
+    font-size:20px;
+}
+
+.progress-card-name {
+    margin-bottom : 0px;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-card-email {
+    margin-bottom : 0px;
+    text-align:center;
+    font-size: 5px;
+}
+
+.progress-card-avatar {
+    width:80%;
+    margin:4px auto 0;
+}
+
+.square {
+    border-radius:9999px;
+    width: 100%;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square .user-image {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20%;
+}
+
+.progress-card-status-bar {
+    border-radius: 9999px;
+    display: flex;
+}
+
+.admin-document-container {
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.document-row-container {
+    border-radius:5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.document-row {
+    padding: 10px;
+}
+.document-row-detail {
+    padding: 0 30px;
+}
+.document-row-detail-header-toggle {
+   background-color: white;
+   padding: 5px;
+   font-weight: bolder
+}
+.document-row-detail-header-search {
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    padding: 4px 10px;
+    line-height: 16px;
+    outline: none;
+}
+.document-row-detail-header-search:focus {
+    outline: none;
+}
+.document-row-detail-header {
+    padding: 20px;
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.admin-recent-activity-container {
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    background-color:white;
+    height:100%
+}
+
+.admin-process-button-div {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.admin-process-button-div-right {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.circle-return-btn {
+    border-radius: 9999px;
+    border: 1px solid #eee;
+    width: 25px;
+    line-height: 23px;
+    height: 25px;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.circle-return-btn:focus {
+    outline: none;
+}
+
+.circle-detail-btn {
+    border-radius: 9999px;
+    border: 1px solid #eee;
+    width: 25px;
+    line-height: 23px;
+    height: 25px;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.circle-detail-btn:focus {
+    outline: none;
+}
+
+.admin-information-card-name {
+    margin-bottom : 0px;
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.admin-information-card-email {
+    margin-bottom : 0px;
+    text-align:center;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 9999px;
+}

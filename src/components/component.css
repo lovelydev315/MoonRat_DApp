@@ -1,0 +1,208 @@
+.left-sidebar-container {
+    color:white;
+    padding: 40px 20px 40px 20px;
+}
+
+.logo-container {
+    margin-bottom:20px;
+
+}
+
+.logo-main-text {
+    color:white;
+    margin:0px;
+}
+
+.logo-sub-text {
+    color:#40c1ff;
+}
+
+.buy-button-container {
+    margin-bottom:20px;
+    padding:10px;
+    background-color:#00a1ff;
+    border:1px solid transparent;
+    color:white;
+    transition: ease-in .3s;
+}
+
+.buy-button-container:hover {
+    transition: ease-in .3s;
+    cursor: pointer;
+    border:1px solid #00a1ff;
+    background-color:transparent;
+    color:#00a1ff;
+}
+
+.information-container {
+    margin-bottom:20px;
+    border:1px solid blue;
+    text-align:left;
+    padding:20px;
+}
+
+.information-button {
+    margin-right:10px;
+    display: inline-block;
+}
+
+.information-button:hover {
+    cursor:pointer;
+}
+
+.menu-container {
+    margin-bottom:20px;
+    border:1px solid blue;
+}
+
+.menu-item {
+    border-bottom:1px solid blue;
+    padding:10px;
+    text-align:left;
+}
+.menu-item:hover {
+    cursor:pointer;
+}
+
+.menu-item-icon {
+    display:inline-block;
+    width:10%;
+    text-align:center;
+}
+
+.menu-item-text {
+    display:inline-block;
+    width:90%;
+}
+
+.no-border {
+    border-width:0px !important;
+}
+
+.content-container {
+    color:white;
+    padding: 40px 20px 40px 20px;
+    padding-bottom:0px;
+}
+
+.toolbar-container {
+    text-align: left;
+    margin-bottom:20px;
+}
+
+.toolbar-item {
+    color:white;
+    display: inline-block;
+    margin-right:20px;
+    border-bottom:2px solid transparent;
+    transition: ease-in-out .2s;
+}
+
+.toolbar-item:hover {
+    border-bottom:2px solid orange;
+    cursor:pointer;
+    transition: ease-in-out .2s;
+}
+
+.toolbar-item:active {
+    border-bottom:2px solid orange;
+}
+
+.content-body-container {
+    border:1px solid blue;
+    padding:20px;
+}
+
+.carousel-container {
+    width:80%;
+    display: inline-block;
+}
+
+.slide-image {
+    width:100%;
+}
+
+.claim-reward-container {
+    border:1px solid blue;
+    padding:20px;
+}
+
+.icon-image {
+    width:30%;
+}
+
+.claim-button-container {
+    display: inline-block;
+    width:200px;
+    margin-bottom:20px;
+    padding:10px;
+    background-color:rgb(250, 121, 16);
+    border:1px solid transparent;
+    color:white;
+    transition: ease-in .2s;
+}
+
+.claim-button-container:hover {
+    transition: ease-in .2s;
+    cursor: pointer;
+    border:1px solid rgb(249, 190, 25);
+    background-color:transparent;
+    color:rgb(249, 190, 25);
+}
+
+.item-container {
+    border:1px solid blue;
+    padding:20px;
+}
+
+.item-icon-image {
+    width:70%;
+}
+
+.copy-button:hover {
+    cursor:pointer;
+}
+
+.transfer-container {
+    display: inline-block;
+    max-width:400px;
+    padding:20px;
+}
+
+.send-button-container {
+    display: inline-block;
+    width:200px;
+    margin-bottom:20px;
+    padding:5px;
+    background-color:#00a1ff;
+    border:1px solid transparent;
+    color:white;
+    transition: ease-in .2s;
+}
+
+.send-button-container:hover {
+    transition: ease-in .2s;
+    cursor: pointer;
+    border:1px solid #00a1ff;
+    background-color:transparent;
+    color:#00a1ff;
+}
+
+.statistics1-container {
+    width:100%;
+    display: inline-block;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.statistics2-container {
+    width:100%;
+    margin-top:20px;
+    display: inline-block;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
